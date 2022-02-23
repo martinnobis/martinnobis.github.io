@@ -2,7 +2,7 @@ import os
 
 import jinja2
 
-OUTPUT_DIR = '.'
+OUTPUT_DIR = 'public'
 
 def main():
     env = jinja2.Environment(
