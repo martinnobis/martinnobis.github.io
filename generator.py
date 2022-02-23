@@ -8,7 +8,7 @@ def main():
 
     template = env.get_template("index.html.j2")
 
-    with open('index.html', 'w') as f:
+    with open('public/index.html', 'w') as f:
         f.write(template.render())
 
 if __name__ == '__main__':
