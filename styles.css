@@ -16,7 +16,7 @@ header {
   align-items: center;
 }
 
-header .name {
+.name {
   font-weight: 600;
   font-size: 3em;
   text-decoration: none;
